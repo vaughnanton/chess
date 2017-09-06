@@ -1,19 +1,28 @@
 #initialize pieces file
+class Pieces
+  attr_accessor :piece, :color
 
-class King
-end
+  def initialize(color)
+    @piece = piece
+    @color = color.downcase
+  end
 
-class Queen
-end
+  def king
+  end
 
-class Rook
-end
+  def queen
+  end
 
-class Bishop
-end
+  def rook
+  end
 
-class Knight
-end
+  def bishop
+  end
 
-class Pawn
+  def knight
+  end
+
+  def pawn
+  end
+
 end
