@@ -1,1 +1,6 @@
-#initialize board file
+#initialize board.rb
+
+class Board
+  def initialize
+  end
+end
